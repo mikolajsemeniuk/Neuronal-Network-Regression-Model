@@ -28,7 +28,7 @@ model = Sequential(
 )
 
 
-epochs: int = 1
+epochs: int = 1000
 optimizer = Adam(model.parameters(), lr=0.001)
 loss_function = MSELoss()
 
